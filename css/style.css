@@ -18,10 +18,10 @@ body {
   }
   
 
-  h1, h3 {
+h1, h3 {
   /* or 'Teko' for a bolder, square style */
     color: #C9B037;
-  }
+}
 
 
 nav{
@@ -84,6 +84,23 @@ main h2{
   color: #022602;
   font-weight: bolder;
 }
+
+article{
+    background-color: 	#022602;
+}
+
+.vertical-line {
+
+    height: 2px;
+    width: 60%; /* or 100% for full width */
+    background-color: #adb0bac1; /* matches your palette */
+    margin: 3rem auto; /* spacing above and below */
+    opacity: 0.8;
+    border-radius: 2px;
+
+  
+}
+
 
 /* Media Queries for Responsiveness */
 
