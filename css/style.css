@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@font-face{
+  font-family: "sfd";
+  src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+/* font-family: 'Cinzel', serif; */
+
+/* General Font Setup */
+body {
+    
+    color: #F0F0F0;
+    /* background-color: #022602; */
+    background-color: 	aqua ;
+    font-family: 'sfd', sans-serif;
+  }
+  
+  /* Headings */
+  h1, h3 {
+  /* or 'Teko' for a bolder, square style */
+    color: #C9B037;
+  }
+  
+  /* Navbar Links */
+  /* .navbar a {
+    font-family: 'Teko', sans-serif;
+    color: #F0F0F0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  } */
+  
+  /* Buttons */
+  /* button {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #C9B037;
+    color: #022602;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  } */
+  
+
+nav{
+    /* background-color: #2C3531; */
+    background-color: #071c07;
+    font-family: 'sfd', sans-serif;
+    color: white !important;
+}
+
+a{
+    color: rgb(171, 171, 171) !important;   
+}
+
+a:hover{
+    color: goldenrod !important;
+}
+
+section{
+    color: #B8860B;
+    font-family: 'sfd', sans-serif;
+    background-color: 	#022602;
+    height: 680px;
+}
+
+.t {
+  height: 80px;
+  top: 7px;
+  left: 82px;
+  position: absolute;
+}
+
+.xc{
+  position: absolute;
+  left: 70px;
+  top: 450px;
+}
+
+.xu{
+  position: absolute;
+  right: 70px;
+  top: 140px;
+}
+
+.txt{
+  width: fit-content;
+margin-top: 200px;
+}
+
+
+main{
+  background-color: #B6BBC1;
+}
+
+main h2{
+  color: #022602;
+  font-family: 'sfd', sans-serif;
+}
+
+.k{
+  color: #022602;
+  font-weight: bolder;
+}
