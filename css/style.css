@@ -12,8 +12,6 @@
 body {
     
     color: #F0F0F0;
-    /* background-color: #022602; */
-    background-color: 	aqua ;
     font-family: 'sfd', sans-serif;
   }
   
@@ -100,6 +98,10 @@ article{
     border-radius: 2px;
 
   
+}
+
+footer{
+  background-color: 	#022602;
 }
 
 
