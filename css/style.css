@@ -9,7 +9,6 @@
 }
 /* font-family: 'Cinzel', serif; */
 
-/* General Font Setup */
 body {
     
     color: #F0F0F0;
@@ -18,30 +17,12 @@ body {
     font-family: 'sfd', sans-serif;
   }
   
-  /* Headings */
+
   h1, h3 {
   /* or 'Teko' for a bolder, square style */
     color: #C9B037;
   }
-  
-  /* Navbar Links */
-  /* .navbar a {
-    font-family: 'Teko', sans-serif;
-    color: #F0F0F0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  } */
-  
-  /* Buttons */
-  /* button {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #C9B037;
-    color: #022602;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-  } */
-  
+
 
 nav{
     /* background-color: #2C3531; */
@@ -102,4 +83,44 @@ main h2{
 .k{
   color: #022602;
   font-weight: bolder;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (Tablets and below) */
+@media (max-width: 480px) {
+  .xu, .xc {
+    width: 50%; /* Reduced further for mobile */
+    top: 5%;
+    left: auto;
+    right: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .xu {
+    left: 5%;
+  }
+
+  .xc {
+    right: 5%;
+  }
+
+  .txt {
+    margin-top: 10px;
+  }
+
+  section {
+    height: auto;
+    padding: 10px;
+  }
+
+  main h2 {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .timeline-event {
+    margin-bottom: 10px;
+  }
 }
