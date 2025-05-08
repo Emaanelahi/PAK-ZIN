@@ -71,7 +71,7 @@ margin-top: 200px;
 }
 
 
-main{
+main, aside{
   background-color: #B6BBC1;
 }
 
@@ -84,6 +84,7 @@ main h2{
   color: #022602;
   font-weight: bolder;
 }
+
 
 article{
     background-color: 	#022602;
