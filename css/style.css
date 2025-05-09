@@ -20,7 +20,10 @@ h1, h3 {
   /* or 'Teko' for a bolder, square style */
     color: #C9B037;
 }
+h6{
 
+    color: black;
+}
 
 nav{
     /* background-color: #2C3531; */
