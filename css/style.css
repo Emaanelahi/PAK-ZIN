@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+@font-face{
+  font-family: "sfd";
+  src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+/* font-family: 'Cinzel', serif; */
+
+body {
+    
+    color: #F0F0F0;
+    font-family: 'sfd', sans-serif;
+  }
+  
+
+h1, h3 {
+  /* or 'Teko' for a bolder, square style */
+    color: #C9B037;
+}
+
+#wea p{
+    color:white;
+}
+    
+.timeline-event h6, p{
+
+    color: black;
+}
+
+nav{
+    /* background-color: #2C3531; */
+    background-color: #071c07;
+    font-family: 'sfd', sans-serif;
+    color: white !important;
+}
+
+a{
+    color: rgb(171, 171, 171) !important;   
+}
+
+a:hover{
+    color: goldenrod !important;
+}
+
+section{
+    color: #B8860B;
+    font-family: 'sfd', sans-serif;
+    background-color: 	#022602;
+    height: 680px;
+}
+
+.t {
+  height: 80px;
+  top: 7px;
+  left: 82px;
+  position: absolute;
+}
+
+.xc{
+  position: absolute;
+  left: 70px;
+  top: 450px;
+}
+
+.xu{
+  position: absolute;
+  right: 70px;
+  top: 140px;
+}
+
+.txt{
+  width: fit-content;
+margin-top: 200px;
+}
+
+
+main, aside{
+  background-color: #B6BBC1;
+}
+
+main h2{
+  color: #022602;
+  font-family: 'sfd', sans-serif;
+}
+
+.k{
+  color: #022602;
+  font-weight: bolder;
+}
+
+
+article{
+    background-color: 	#022602;
+}
+
+.vertical-line {
+
+    height: 2px;
+    width: 60%; /* or 100% for full width */
+    background-color: #adb0bac1; /* matches your palette */
+    margin: 3rem auto; /* spacing above and below */
+    opacity: 0.8;
+    border-radius: 2px;
+
+  
+}
+
+footer{
+  background-color: 	#022602;
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (Tablets and below) */
+@media (max-width: 480px) {
+  .xu, .xc {
+    width: 50%; /* Reduced further for mobile */
+    top: 5%;
+    left: auto;
+    right: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .xu {
+    left: 5%;
+  }
+
+  .xc {
+    right: 5%;
+  }
+
+  .txt {
+    margin-top: 10px;
+  }
+
+  section {
+    height: auto;
+    padding: 10px;
+  }
+
+  main h2 {
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .timeline-event {
+    margin-bottom: 10px;
+  }
+}
+#wea{
+  height: auto !important;
+}
+
+
+
+
