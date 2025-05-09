@@ -21,7 +21,7 @@ h1, h3 {
     color: #C9B037;
 }
 
-h2+p{
+.arm h2+p{
     color:white;
 }
     
