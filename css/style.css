@@ -20,6 +20,11 @@ h1, h3 {
   /* or 'Teko' for a bolder, square style */
     color: #C9B037;
 }
+
+h2+p{
+    color:white;
+}
+    
 .timeline-event h6, p{
 
     color: black;
